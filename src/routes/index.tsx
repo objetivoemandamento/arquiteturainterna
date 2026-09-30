@@ -59,7 +59,7 @@ function Index() {
 
 function Hero() {
   return (
-    <section className="relative flex min-h-[100svh] items-end overflow-hidden">
+    <section className="relative flex min-h-[100svh] flex-col justify-end overflow-hidden">
       <img
         src={heroImage}
         alt=""
