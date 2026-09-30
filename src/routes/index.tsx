@@ -89,7 +89,7 @@ function Hero() {
           Quero Conhecer as Opções
         </a>
       </div>
-      <figure className="relative w-full border-t border-primary/50">
+      <figure className="relative w-full border-t border-primary/25">
         <img
           src={najelaAsset.url}
           alt="Nájela Maurício"
