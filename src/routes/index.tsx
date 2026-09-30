@@ -29,8 +29,7 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
-// TODO: substituir pelo número real de WhatsApp (formato: código do país + DDD + número)
-const WHATSAPP_NUMBER = "5511999999999";
+const WHATSAPP_NUMBER = "5541996783369";
 
 function waLink(message: string) {
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
