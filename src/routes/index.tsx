@@ -10,7 +10,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Mentorias premium e soluções estratégicas para líderes e realizadores de alto impacto que decidiram parar de colapsar no sigilo.",
+          "Mentoria privada para líderes que decidiram parar de colapsar no sigilo.",
       },
       {
         property: "og:title",
@@ -19,7 +19,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "O império que você constrói por fora não precisa custar a sua estabilidade por dentro.",
+          "Sustente por dentro o império que você constrói por fora.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -41,15 +41,10 @@ const ctaPrimary =
 const ctaGhost =
   "inline-flex items-center justify-center rounded-full border border-primary/60 px-8 py-4 text-xs font-extrabold uppercase tracking-[0.2em] text-primary transition-colors duration-200 hover:bg-primary/10";
 
-const eyebrow =
-  "text-[11px] font-bold uppercase tracking-[0.35em] text-primary";
-
 function Index() {
   return (
     <main className="min-h-screen bg-background font-sans text-foreground">
       <Hero />
-      <PainBlock />
-      <MethodBlock />
       <OffersBlock />
       <EscapeBlock />
       <footer className="border-t border-border/60 py-10">
@@ -82,88 +77,16 @@ function Hero() {
         </a>
       </div>
       <div className="relative mx-auto w-full max-w-6xl px-6 pb-20 pt-40 sm:pb-28">
-        <p className={eyebrow}>Mentoria Executiva · Alto Impacto</p>
-        <h1 className="mt-6 max-w-3xl font-display text-4xl font-medium leading-[1.08] text-balance sm:text-6xl">
-          O império que você constrói por fora não precisa custar a sua
-          estabilidade por dentro.
+        <h1 className="max-w-3xl font-display text-4xl font-medium leading-[1.08] text-balance sm:text-6xl">
+          Sustente por dentro o império que você constrói por fora.
         </h1>
         <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-          Mentorias premium e soluções estratégicas para líderes e realizadores
-          de alto impacto que decidiram parar de colapsar no sigilo.
+          Mentoria privada para líderes que decidiram parar de colapsar no
+          sigilo.
         </p>
         <a href="#opcoes" className={`${ctaPrimary} mt-10`}>
-          Quero Sustentar Meu Império
+          Quero Conhecer as Opções
         </a>
-      </div>
-    </section>
-  );
-}
-
-function PainBlock() {
-  return (
-    <section className="border-t border-border/60">
-      <div className="mx-auto max-w-3xl px-6 py-24 text-center sm:py-32">
-        <p className="font-display text-2xl font-medium leading-snug text-balance sm:text-3xl">
-          É solitário estar no topo.
-        </p>
-        <p className="mt-6 text-base leading-relaxed text-muted-foreground sm:text-lg">
-          Do lado de fora, números, palcos e expansão. Do lado de dentro,
-          estresse crônico, noites em claro e a sensação de que a engrenagem
-          vai falhar.
-        </p>
-        <p className="mt-8 font-semibold text-foreground">
-          Você não precisa escolher entre o seu sucesso e a sua saúde.
-        </p>
-        <div className="mx-auto mt-10 h-px w-16 bg-primary" />
-      </div>
-    </section>
-  );
-}
-
-const pilares = [
-  {
-    numero: "01",
-    titulo: "Engenharia Emocional",
-    descricao: "Blindagem contra o burnout executivo.",
-  },
-  {
-    numero: "02",
-    titulo: "Alinhamento de Identidade",
-    descricao: "Sustentação interna para decisões de alto risco.",
-  },
-  {
-    numero: "03",
-    titulo: "Alta Performance Saudável",
-    descricao: "Expansão dos seus negócios sem o colapso da sua vida pessoal.",
-  },
-];
-
-function MethodBlock() {
-  return (
-    <section className="mx-auto max-w-5xl px-6 py-24 sm:py-32">
-      <p className={eyebrow}>O Método</p>
-      <h2 className="mt-4 max-w-2xl font-display text-3xl font-medium leading-tight text-balance sm:text-5xl">
-        O Método Arquitetura Interna<sup className="text-lg text-primary">®</sup>
-      </h2>
-      <div className="mt-14 divide-y divide-border border-y border-border">
-        {pilares.map((pilar) => (
-          <div
-            key={pilar.numero}
-            className="grid gap-2 py-8 sm:grid-cols-[72px_1fr] sm:gap-6"
-          >
-            <span className="font-display text-lg text-primary">
-              {pilar.numero}
-            </span>
-            <div>
-              <h3 className="text-lg font-semibold tracking-tight">
-                {pilar.titulo}
-              </h3>
-              <p className="mt-1 leading-relaxed text-muted-foreground">
-                {pilar.descricao}
-              </p>
-            </div>
-          </div>
-        ))}
       </div>
     </section>
   );
@@ -171,26 +94,24 @@ function MethodBlock() {
 
 const ofertas = [
   {
-    etiqueta: "Imersão / VIP",
-    nome: "Imersão Arquitetura Interna",
+    nome: "Mentoria Individual",
     descricao:
-      "Diagnóstico pontual e plano de ação estratégico em um único dia de alta intensidade.",
-    nota: "Vagas limitadas este mês",
-    cta: "Quero Agendar Minha Imersão",
+      "Acompanhamento privado e customizado de longo prazo para a sua rotina executiva.",
+    nota: "Vagas limitadas por aplicação.",
+    cta: "Aplicar para Mentoria",
     href: waLink(
-      "Olá! Quero agendar minha Imersão VIP da Arquitetura Interna.",
+      "Olá! Quero aplicar para a Mentoria Individual da Arquitetura Interna.",
     ),
     destaque: true,
   },
   {
-    etiqueta: "Mentoria Individual",
-    nome: "Mentoria Arquitetura Interna",
+    nome: "Sessão Estratégica",
     descricao:
-      "Acompanhamento privado, de longo prazo e customizado para a sua rotina executiva.",
-    nota: "Apenas por aplicação",
-    cta: "Aplicar para a Mentoria",
+      "Diagnóstico pontual de alta intensidade com plano de ação imediato.",
+    nota: "Agenda sob consulta.",
+    cta: "Agendar Sessão",
     href: waLink(
-      "Olá! Quero aplicar para a Mentoria Individual da Arquitetura Interna.",
+      "Olá! Quero agendar uma Sessão Estratégica da Arquitetura Interna.",
     ),
     destaque: false,
   },
@@ -200,11 +121,7 @@ function OffersBlock() {
   return (
     <section id="opcoes" className="scroll-mt-8 border-t border-border/60">
       <div className="mx-auto max-w-5xl px-6 py-24 sm:py-32">
-        <p className={`${eyebrow} text-center`}>Opções de Contratação</p>
-        <h2 className="mx-auto mt-4 max-w-2xl text-center font-display text-3xl font-medium leading-tight text-balance sm:text-5xl">
-          Escolha o seu nível de profundidade
-        </h2>
-        <div className="mt-14 grid gap-6 md:grid-cols-2">
+        <div className="grid gap-6 md:grid-cols-2">
           {ofertas.map((oferta) => (
             <article
               key={oferta.nome}
@@ -214,10 +131,7 @@ function OffersBlock() {
                   : "border-border bg-card/60"
               }`}
             >
-              <span className="self-start rounded-full border border-primary/40 px-3 py-1 text-[10px] font-bold uppercase tracking-[0.2em] text-primary">
-                {oferta.etiqueta}
-              </span>
-              <h3 className="mt-6 font-display text-2xl font-medium tracking-tight">
+              <h3 className="font-display text-2xl font-medium tracking-tight">
                 {oferta.nome}
               </h3>
               <p className="mt-3 leading-relaxed text-muted-foreground">
@@ -248,17 +162,17 @@ function EscapeBlock() {
     <section className="border-t border-border/60">
       <div className="mx-auto max-w-3xl px-6 py-24 text-center sm:py-28">
         <h2 className="font-display text-2xl font-medium leading-snug text-balance sm:text-4xl">
-          Não sabe qual é o momento atual da sua Arquitetura Interna?
+          Dúvidas sobre o momento atual da sua Arquitetura Interna?
         </h2>
         <a
           href={waLink(
-            "Olá! Não sei qual é o momento atual da minha Arquitetura Interna e quero falar com a assessoria.",
+            "Olá! Tenho dúvidas sobre o momento atual da minha Arquitetura Interna e quero falar com a assessoria.",
           )}
           target="_blank"
           rel="noreferrer"
           className={`${ctaGhost} mt-10`}
         >
-          Falar com Assessoria no WhatsApp
+          Falar com a Assessoria via WhatsApp
         </a>
       </div>
     </section>
