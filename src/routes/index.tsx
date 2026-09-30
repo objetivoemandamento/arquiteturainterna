@@ -78,7 +78,7 @@ function Hero() {
         </a>
       </div>
       <div className="relative mx-auto w-full max-w-6xl px-6 pb-4 pt-40">
-        <h1 className="w-full text-right font-display text-4xl font-medium leading-[1.08] text-balance sm:text-6xl">
+        <h1 className="font-display text-4xl font-medium leading-[1.08] text-balance sm:text-6xl">
           Sustente por dentro o império que você constrói por fora.
         </h1>
         <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
@@ -93,7 +93,7 @@ function Hero() {
         <img
           src={najelaAsset.url}
           alt="Nájela Maurício"
-          className="w-full object-contain [mask-image:linear-gradient(to_bottom,black_55%,transparent_98%)]"
+          className="w-full object-contain [mask-image:linear-gradient(to_bottom,transparent_0%,black_10%,black_55%,transparent_98%)]"
         />
       </figure>
     </section>
