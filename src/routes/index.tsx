@@ -77,27 +77,25 @@ function Hero() {
           Contratar
         </a>
       </div>
-      <div className="relative mx-auto grid w-full max-w-6xl items-end gap-12 px-6 pb-20 pt-40 sm:pb-28 md:grid-cols-[1.25fr_1fr]">
-        <div>
-          <h1 className="max-w-3xl font-display text-4xl font-medium leading-[1.08] text-balance sm:text-6xl">
-            Sustente por dentro o império que você constrói por fora.
-          </h1>
-          <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-            Mentoria privada para líderes que decidiram parar de colapsar no
-            sigilo.
-          </p>
-          <a href="#opcoes" className={`${ctaPrimary} mt-10`}>
-            Quero Conhecer as Opções
-          </a>
-        </div>
-        <figure className="mx-auto w-full max-w-xs md:mx-0 md:max-w-sm md:justify-self-end">
-          <img
-            src={najelaAsset.url}
-            alt="Nájela Maurício"
-            className="w-full object-contain [mask-image:linear-gradient(to_bottom,black_60%,transparent_99%)]"
-          />
-        </figure>
+      <div className="relative mx-auto w-full max-w-6xl px-6 pb-4 pt-40">
+        <h1 className="max-w-3xl font-display text-4xl font-medium leading-[1.08] text-balance sm:text-6xl">
+          Sustente por dentro o império que você constrói por fora.
+        </h1>
+        <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
+          Mentoria privada para líderes que decidiram parar de colapsar no
+          sigilo.
+        </p>
+        <a href="#opcoes" className={`${ctaPrimary} mt-10`}>
+          Quero Conhecer as Opções
+        </a>
       </div>
+      <figure className="relative w-full">
+        <img
+          src={najelaAsset.url}
+          alt="Nájela Maurício"
+          className="w-full object-contain [mask-image:linear-gradient(to_bottom,black_55%,transparent_98%)]"
+        />
+      </figure>
     </section>
   );
 }
