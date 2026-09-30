@@ -29,8 +29,7 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
-// TODO: substituir pelo número real de WhatsApp (formato: código do país + DDD + número)
-const WHATSAPP_NUMBER = "5511999999999";
+const WHATSAPP_NUMBER = "5541996783369";
 
 function waLink(message: string) {
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
@@ -71,7 +70,9 @@ function Hero() {
           Arquitetura Interna<sup className="text-[9px] text-primary">®</sup>
         </span>
         <a
-          href="#opcoes"
+          href={waLink("Olá! Quero contratar a Arquitetura Interna.")}
+          target="_blank"
+          rel="noreferrer"
           className="text-[11px] font-bold uppercase tracking-[0.25em] text-muted-foreground transition-colors hover:text-primary"
         >
           Contratar
@@ -85,7 +86,12 @@ function Hero() {
           Mentoria privada para líderes que decidiram parar de colapsar no
           sigilo.
         </p>
-        <a href="#opcoes" className={`${ctaPrimary} mt-10`}>
+        <a
+          href={waLink("Olá! Quero conhecer as opções da Arquitetura Interna.")}
+          target="_blank"
+          rel="noreferrer"
+          className={`${ctaPrimary} mt-10`}
+        >
           Quero Conhecer as Opções
         </a>
       </div>
