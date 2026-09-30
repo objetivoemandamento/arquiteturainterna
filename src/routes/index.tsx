@@ -90,11 +90,11 @@ function Hero() {
             Quero Conhecer as Opções
           </a>
         </div>
-        <figure className="mx-auto w-full max-w-xs md:mx-0 md:max-w-none md:justify-self-end">
+        <figure className="mx-auto w-full max-w-xs md:mx-0 md:max-w-sm md:justify-self-end">
           <img
             src={najelaAsset.url}
             alt="Nájela Maurício"
-            className="aspect-[4/5] w-full rounded-[2rem] border border-primary/40 object-cover shadow-[0_30px_80px_-30px] shadow-primary/40"
+            className="w-full object-contain [mask-image:linear-gradient(to_bottom,black_60%,transparent_99%)]"
           />
         </figure>
       </div>
