@@ -70,9 +70,7 @@ function Hero() {
           Arquitetura Interna<sup className="text-[9px] text-primary">®</sup>
         </span>
         <a
-          href={waLink("Olá! Quero contratar a Arquitetura Interna.")}
-          target="_blank"
-          rel="noreferrer"
+          href="#opcoes"
           className="text-[11px] font-bold uppercase tracking-[0.25em] text-muted-foreground transition-colors hover:text-primary"
         >
           Contratar
@@ -87,9 +85,7 @@ function Hero() {
           sigilo.
         </p>
         <a
-          href={waLink("Olá! Quero conhecer as opções da Arquitetura Interna.")}
-          target="_blank"
-          rel="noreferrer"
+          href="#opcoes"
           className={`${ctaPrimary} mt-10`}
         >
           Quero Conhecer as Opções
