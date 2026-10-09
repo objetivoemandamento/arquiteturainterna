@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import heroImage from "@/assets/hero.jpg";
-import najelaAsset from "@/assets/najela-mauricio.png.asset.json";
+import heroImg from "../assets/hero.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -92,11 +92,7 @@ function Hero() {
         </a>
       </div>
       <figure className="relative w-full border-t border-primary/25">
-        <img
-          src={najelaAsset.url}
-          alt="Nájela Maurício"
-          className="w-full object-contain [mask-image:linear-gradient(to_bottom,transparent_0%,black_10%,black_55%,transparent_98%)]"
-        />
+        <img src={heroImg} alt="Nájela Maurício" className="w-full h-auto object-cover" />
       </figure>
     </section>
   );
