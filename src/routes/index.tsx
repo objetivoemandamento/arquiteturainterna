@@ -83,8 +83,7 @@ function Hero() {
           Reconstrua por dentro o que você sustenta por fora.
         </h1>
         <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-          Mentoria privada para líderes que decidiram parar de colapsar no
-          sigilo.
+          Atendimento privado para quem decidiu parar de colapsar no sigilo.
         </p>
         <a
           href={waLink("Olá! Quero conhecer as opções da Arquitetura Interna.")}
