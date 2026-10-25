@@ -6,21 +6,21 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       {
-        title: "Arquitetura Interna® — Mentoria Premium para Líderes de Alto Impacto",
+        title: "Arquitetura Interna® — Terapia, Assessoria e Arquitetura Executiva",
       },
       {
         name: "description",
         content:
-          "Mentoria privada para líderes que decidiram parar de colapsar no sigilo.",
+          "Reconstrua por dentro o que você sustenta por fora. Terapia individual e de casal, assessoria executiva e Arquitetura Interna Executiva.",
       },
       {
         property: "og:title",
-        content: "Arquitetura Interna® — Mentoria Premium para Líderes",
+        content: "Arquitetura Interna® — Terapia, Assessoria e Arquitetura Executiva",
       },
       {
         property: "og:description",
         content:
-          "Sustente por dentro o império que você constrói por fora.",
+          "Reconstrua por dentro o que você sustenta por fora.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -80,7 +80,7 @@ function Hero() {
       </div>
       <div className="relative mx-auto w-full max-w-6xl px-6 pb-4 pt-40">
         <h1 className="font-display text-4xl font-medium leading-[1.08] text-balance sm:text-6xl">
-          Sustente por dentro o império que você constrói por fora.
+          Reconstrua por dentro o que você sustenta por fora.
         </h1>
         <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
           Mentoria privada para líderes que decidiram parar de colapsar no
