@@ -76,7 +76,7 @@ Como o seu site atual é gratuito e "fala demais", recomendo migrar para platafo
 
 This project was built with [Lovable](https://lovable.dev).
 
-**Live app**: https://arquiteturainterna.lovable.app
+**Live app**: https://najelamauricio.lovable.app
 
 ## Build with Lovable
 
