@@ -7,4 +7,5 @@
 - [x] Número real de WhatsApp (41 99678-3369) em todos os botões
 - [x] Foto trocada pela nova (12072026-UH0A0841.jpg), mantida inteira
 - [x] Produtos atualizados: Terapia Individual, Terapia de Casal, Assessoria Executiva, Arquitetura Interna Executiva
+- [x] Frase de entrada trocada: "Reconstrua por dentro o que você sustenta por fora." + apoio "Atendimento privado para quem decidiu parar de colapsar no sigilo."
 
