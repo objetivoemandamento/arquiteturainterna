@@ -95,7 +95,7 @@ function Hero() {
         <img
           src={najelaAsset.url}
           alt="Najela - Arquitetura Interna"
-          className="w-full h-auto object-cover"
+          className="w-full h-auto object-cover [mask-image:linear-gradient(to_bottom,transparent_0%,black_10%,black_55%,transparent_98%)]"
         />
       </figure>
     </section>
