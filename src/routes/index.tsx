@@ -70,7 +70,9 @@ function Hero() {
           Arquitetura Interna<sup className="text-[9px] text-primary">®</sup>
         </span>
         <a
-          href="#opcoes"
+          href={waLink("Olá! Quero contratar a Arquitetura Interna.")}
+          target="_blank"
+          rel="noreferrer"
           className="text-[11px] font-bold uppercase tracking-[0.25em] text-muted-foreground transition-colors hover:text-primary"
         >
           Contratar
@@ -85,7 +87,9 @@ function Hero() {
           sigilo.
         </p>
         <a
-          href="#opcoes"
+          href={waLink("Olá! Quero conhecer as opções da Arquitetura Interna.")}
+          target="_blank"
+          rel="noreferrer"
           className={`${ctaPrimary} mt-10`}
         >
           Quero Conhecer as Opções
@@ -104,26 +108,34 @@ function Hero() {
 
 const ofertas = [
   {
-    nome: "Mentoria Individual",
-    descricao:
-      "Acompanhamento privado e customizado de longo prazo para a sua rotina executiva.",
-    nota: "Vagas limitadas por aplicação.",
-    cta: "Aplicar para Mentoria",
-    href: waLink(
-      "Olá! Quero aplicar para a Mentoria Individual da Arquitetura Interna.",
-    ),
-    destaque: true,
+    nome: "Terapia Individual",
+    descricao: "Dinâmicas emocionais e relacionais individuais.",
+    cta: "Agendar Terapia Individual",
+    href: waLink("Olá! Quero agendar uma Terapia Individual."),
+    destaque: false,
   },
   {
-    nome: "Sessão Estratégica",
-    descricao:
-      "Diagnóstico pontual de alta intensidade com plano de ação imediato.",
-    nota: "Agenda sob consulta.",
-    cta: "Agendar Sessão",
-    href: waLink(
-      "Olá! Quero agendar uma Sessão Estratégica da Arquitetura Interna.",
-    ),
+    nome: "Terapia de Casal",
+    descricao: "Dinâmicas emocionais e relacionais de casal.",
+    cta: "Agendar Terapia de Casal",
+    href: waLink("Olá! Quero agendar uma Terapia de Casal."),
     destaque: false,
+  },
+  {
+    nome: "Assessoria Executiva",
+    descricao:
+      "Clareza para tomar decisões, dinâmicas do servir e do transbordar.",
+    cta: "Falar sobre Assessoria Executiva",
+    href: waLink("Olá! Quero falar sobre a Assessoria Executiva."),
+    destaque: false,
+  },
+  {
+    nome: "Arquitetura Interna Executiva",
+    descricao:
+      "Dinâmicas internas sabotadoras nos negócios e sobrecarga às emoções e à mente.",
+    cta: "Aplicar para Arquitetura Interna Executiva",
+    href: waLink("Olá! Quero aplicar para a Arquitetura Interna Executiva."),
+    destaque: true,
   },
 ];
 
@@ -144,12 +156,8 @@ function OffersBlock() {
               <h3 className="font-display text-2xl font-medium tracking-tight">
                 {oferta.nome}
               </h3>
-              <p className="mt-3 leading-relaxed text-muted-foreground">
+              <p className="mt-3 flex-1 leading-relaxed text-muted-foreground">
                 {oferta.descricao}
-              </p>
-              <p className="mt-6 flex items-center gap-2 text-sm font-semibold text-primary">
-                <span className="h-1 w-1 rounded-full bg-primary" />
-                {oferta.nota}
               </p>
               <a
                 href={oferta.href}
