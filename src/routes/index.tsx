@@ -11,7 +11,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Você cuida de tudo. Quem cuida de você? Terapia individual e de casal, assessoria executiva e Arquitetura Interna Executiva.",
+          "Antes de cuidar de tudo, cuide de você! Terapia individual e de casal, assessoria executiva e Arquitetura Interna Executiva.",
       },
       {
         property: "og:title",
@@ -20,7 +20,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "Você cuida de tudo. Quem cuida de você?",
+          "Antes de cuidar de tudo, cuide de você!",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -80,7 +80,7 @@ function Hero() {
       </div>
       <div className="relative mx-auto w-full max-w-6xl px-6 pb-4 pt-40">
         <h1 className="font-display text-4xl font-medium leading-[1.08] text-balance sm:text-6xl">
-          Você cuida de tudo. Quem cuida de você?
+          Antes de cuidar de tudo, cuide de você!
         </h1>
         <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
           Atendimento privado para quem decidiu parar de colapsar no sigilo.
