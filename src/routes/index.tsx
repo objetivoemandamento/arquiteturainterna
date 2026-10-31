@@ -138,6 +138,14 @@ const ofertas = [
     href: waLink("Olá! Quero aplicar para a Arquitetura Interna Executiva."),
     destaque: true,
   },
+  {
+    nome: "Projetos de DHO, T&D e Processos de Aprendizagem Corporativa Contínua ou Pontual",
+    cta: "Falar sobre Projetos de DHO e T&D",
+    href: waLink(
+      "Olá! Quero falar sobre Projetos de DHO, T&D e Processos de Aprendizagem Corporativa.",
+    ),
+    destaque: false,
+  },
 ];
 
 function OffersBlock() {
