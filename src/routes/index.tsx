@@ -68,9 +68,14 @@ function Hero() {
       />
       <div className="absolute inset-0 bg-gradient-to-t from-background via-background/70 to-background/20" />
       <div className="absolute inset-x-0 top-0 mx-auto flex w-full max-w-6xl items-center justify-between px-6 pt-8">
-        <span className="font-display text-sm font-semibold tracking-wide text-foreground">
-          Arquitetura Interna<sup className="text-[9px] text-primary">®</sup>
-        </span>
+        <div className="flex flex-col gap-1">
+          <span className="font-display text-sm font-semibold tracking-wide text-foreground">
+            Arquitetura Interna<sup className="text-[9px] text-primary">®</sup>
+          </span>
+          <span className="text-[10px] font-bold uppercase tracking-[0.3em] text-primary/80">
+            Nájela Maurício
+          </span>
+        </div>
         <a
           href={waLink("Olá! Quero contratar a Arquitetura Interna.")}
           target="_blank"
