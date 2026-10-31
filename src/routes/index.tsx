@@ -109,20 +109,6 @@ function Hero() {
 
 const ofertas = [
   {
-    nome: "Terapia Individual",
-    descricao: "Dinâmicas emocionais e relacionais individuais.",
-    cta: "Agendar Terapia Individual",
-    href: waLink("Olá! Quero agendar uma Terapia Individual."),
-    destaque: false,
-  },
-  {
-    nome: "Terapia de Casal",
-    descricao: "Dinâmicas emocionais e relacionais de casal.",
-    cta: "Agendar Terapia de Casal",
-    href: waLink("Olá! Quero agendar uma Terapia de Casal."),
-    destaque: false,
-  },
-  {
     nome: "Assessoria Executiva",
     descricao:
       "Clareza para tomar decisões, dinâmicas do servir e do transbordar.",
@@ -144,6 +130,20 @@ const ofertas = [
     href: waLink(
       "Olá! Quero falar sobre Projetos de DHO, T&D e Processos de Aprendizagem Corporativa.",
     ),
+    destaque: false,
+  },
+  {
+    nome: "Terapia Individual",
+    descricao: "Dinâmicas emocionais e relacionais individuais.",
+    cta: "Agendar Terapia Individual",
+    href: waLink("Olá! Quero agendar uma Terapia Individual."),
+    destaque: false,
+  },
+  {
+    nome: "Terapia de Casal",
+    descricao: "Dinâmicas emocionais e relacionais de casal.",
+    cta: "Agendar Terapia de Casal",
+    href: waLink("Olá! Quero agendar uma Terapia de Casal."),
     destaque: false,
   },
 ];
