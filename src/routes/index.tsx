@@ -133,17 +133,21 @@ const ofertas = [
     destaque: false,
   },
   {
-    nome: "Terapia Individual",
+    nome: "Processo de Desenvolvimento Individual",
     descricao: "Dinâmicas emocionais e relacionais individuais.",
-    cta: "Agendar Terapia Individual",
-    href: waLink("Olá! Quero agendar uma Terapia Individual."),
+    cta: "Agendar Processo de Desenvolvimento Individual",
+    href: waLink(
+      "Olá! Quero agendar um Processo de Desenvolvimento Individual.",
+    ),
     destaque: false,
   },
   {
-    nome: "Terapia de Casal",
+    nome: "Processo de Desenvolvimento de Casal",
     descricao: "Dinâmicas emocionais e relacionais de casal.",
-    cta: "Agendar Terapia de Casal",
-    href: waLink("Olá! Quero agendar uma Terapia de Casal."),
+    cta: "Agendar Processo de Desenvolvimento de Casal",
+    href: waLink(
+      "Olá! Quero agendar um Processo de Desenvolvimento de Casal.",
+    ),
     destaque: false,
   },
 ];
