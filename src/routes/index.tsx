@@ -11,7 +11,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "O desenvolvimento humano transforma a maneira como pensamos, decidimos e construímos resultados. Terapia individual e de casal, assessoria executiva e Arquitetura Interna Executiva.",
+          "O desenvolvimento do ser transforma a maneira como pensamos, decidimos e construímos resultados. Terapia individual e de casal, assessoria executiva e Arquitetura Interna Executiva.",
       },
       {
         property: "og:title",
@@ -20,7 +20,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "O desenvolvimento humano transforma a maneira como pensamos, decidimos e construímos resultados.",
+          "O desenvolvimento do ser transforma a maneira como pensamos, decidimos e construímos resultados. Nájela Maurício.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -87,9 +87,12 @@ function Hero() {
       </div>
       <div className="relative mx-auto w-full max-w-6xl px-6 pb-4 pt-40">
         <h1 className="font-display text-4xl font-medium leading-[1.08] text-balance sm:text-6xl">
-          O desenvolvimento humano transforma a maneira como pensamos, decidimos
+          O desenvolvimento do ser transforma a maneira como pensamos, decidimos
           e construímos resultados.
         </h1>
+        <p className="mt-4 text-[11px] font-bold uppercase tracking-[0.3em] text-primary">
+          — Nájela Maurício
+        </p>
         <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
           Atendimento privado para quem decidiu parar de colapsar no sigilo.
         </p>
